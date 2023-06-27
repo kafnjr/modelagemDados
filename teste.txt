@@ -1,1 +1,0 @@
-Esse é um teste que fiz para verificar as configurações da assinatura que fiz no git.
