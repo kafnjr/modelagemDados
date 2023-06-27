@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Titulo do meu projeto**
 | :label: Tecnologias | SQL (tecnologias utilizadas)
-| :rocket: URL         | [https://url-deploy.com.br](https://github.com/kafnjr/modelagemDeDados)
+| :rocket: URL         | [https://url-deploy.com.br](https://github.com/kafnjr/modelagemDados)
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
