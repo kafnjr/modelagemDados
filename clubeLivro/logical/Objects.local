@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3DAD9D73-CE0F-8B58-82C0-A60D08E1ED14" name="livro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2AF515EC-91AA-951E-EB24-FB524E678D18" name="pedido" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F73A101E-6C8B-F5D3-BDE1-CA3D395A1E0F" name="cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BFA25AA4-DF8A-79CC-0150-EB70CBC09037" name="estoque" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EDE96077-6233-E7EB-266D-E56FEFDB7C5E" name="editora" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="F500125E-F619-F113-0F88-C2A8E38F440F" name="faz" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="FE4033A0-2575-71FA-1721-D6EA6110B197" propertySourceId="F73A101E-6C8B-F5D3-BDE1-CA3D395A1E0F" propertyTargetId="2AF515EC-91AA-951E-EB24-FB524E678D18"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

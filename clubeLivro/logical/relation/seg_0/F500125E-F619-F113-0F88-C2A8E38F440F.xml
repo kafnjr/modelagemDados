@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="faz" directorySegmentName="seg_0" id="F500125E-F619-F113-0F88-C2A8E38F440F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 02:27:45 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<sourcePk>7FD0E465-6C20-991C-6E8F-E546B2AFF1CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F73A101E-6C8B-F5D3-BDE1-CA3D395A1E0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2AF515EC-91AA-951E-EB24-FB524E678D18</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

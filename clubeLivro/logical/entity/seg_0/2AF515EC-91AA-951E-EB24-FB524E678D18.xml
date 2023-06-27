@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AF515EC-91AA-951E-EB24-FB524E678D18" name="pedido">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-17 19:43:00 UTC</createdTime>
+<notes><![CDATA[Entidade fraca]]></notes>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data" id="542EA87C-2084-6CBB-32EA-818D13DCC16F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:41:59 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_pedido" id="FE943D73-4647-9AA7-A0BB-46FCB65466EE">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:42:23 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pedido" id="A7737948-72A3-F92A-E20A-40783E6BB5B1">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:42:43 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="3CFF79D0-F794-658D-1C8D-11694425F1EC">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:43:37 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente1" id="5C5FDA78-F03F-5DBA-8C90-6F5761D1EC36">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 02:27:45 UTC</createdTime>
+<generatorID>F500125E-F619-F113-0F88-C2A8E38F440F</generatorID>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<referedAttribute>2C05B165-5D9A-12EC-9876-88B169A6E11A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04176014-D297-5B3F-F462-2C3E048D625F" name="pedido PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:42:57 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7737948-72A3-F92A-E20A-40783E6BB5B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

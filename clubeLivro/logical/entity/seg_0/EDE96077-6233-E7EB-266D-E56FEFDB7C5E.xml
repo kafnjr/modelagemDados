@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDE96077-6233-E7EB-266D-E56FEFDB7C5E" name="editora">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-17 19:41:41 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_editora" id="732F3CD0-739C-ED7E-A4D7-E0F793CA69BD">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:51:41 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="8CC9A772-B2FB-16C0-C7B0-97B5AFE99FDB">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:52:02 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="FA4EC23E-B068-D452-B7A0-9B38B4D1475E">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:52:30 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="D03C4A09-A8D1-DA81-06FE-58972B16112F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:53:00 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEA697E7-870F-A7FA-5C57-4DF03C03FFD7" name="editora PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:51:58 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>732F3CD0-739C-ED7E-A4D7-E0F793CA69BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

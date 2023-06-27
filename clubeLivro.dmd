@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="clubeLivro" id="AED2C2DB-92C5-2984-77FD-16B0631208AD" version="3.5">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-17 06:04:28 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AED2C2DB-92C5-2984-77FD-16B0631208AD</designId>
+</OSDM_Design>

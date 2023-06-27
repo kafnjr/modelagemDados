@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFA25AA4-DF8A-79CC-0150-EB70CBC09037" name="estoque">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-17 19:43:15 UTC</createdTime>
+<notes><![CDATA[Entidade fraca]]></notes>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="qtd_estoque" id="B081E0EA-9D22-D2F2-4DD8-05F34DE5B893">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:53:57 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="F7057892-D832-64DF-0993-C81CF16CCDD8">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:54:25 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_editora" id="F0718F83-166D-6527-7DF6-A9EEE5F5B888">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-22 01:55:16 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="5C28B2B5-7620-8FB3-2A43-3B72AD22C9E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
