@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![projeto final curso 1 modelagem de dados](https://github.com/kafnjr/modelagemDados/blob/main/projetoCompleto_brModeloOnline.png#vitrinedev)
+![projeto final curso 1 modelagem de dados](https://github.com/kafnjr/modelagemDados/blob/main/modelagem_entidades/projetoCompleto_brModeloOnline.png)
 
 ## Detalhes do projeto
 
