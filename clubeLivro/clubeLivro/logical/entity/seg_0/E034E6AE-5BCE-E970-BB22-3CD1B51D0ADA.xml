@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E034E6AE-5BCE-E970-BB22-3CD1B51D0ADA" name="PEDIDO">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:50:07 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cliente" id="D3048478-A558-35A1-8F5A-E56B47D6B1B1">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:51:27 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pedido" id="D95A966B-531D-3AFC-EA8E-58FEC2B23E21">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:52:05 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="83F888CB-F944-2CC1-B102-778E4B15728E">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:52:22 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_pedido" id="F68B4897-ED28-E02A-D6C3-5CADF99A844C">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:52:32 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DE9737D-356E-F2E4-D526-85808D1E5C92" name="PEDIDO PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 03:52:49 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D95A966B-531D-3AFC-EA8E-58FEC2B23E21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

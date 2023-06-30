@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7BD1D64-F2B3-8521-F20B-2BE7F0792D39" name="CLIENTE">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cliente" id="5CFB6CCC-1EB3-A1CE-8803-BD0A7F2B2823">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>A506B9DB-BE55-3DE4-6BEF-81D43F4B6A21</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="ACE0EE83-D3BA-45C5-FD43-5306347E9CE7">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>59BEAF80-17CC-0A5D-064A-911DA62A4017</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="ACF34481-095F-24BE-C5A3-6B673DE37DE9">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>66B07FA8-E1D8-A2F4-2A4B-1627C21CF331</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_1" id="281FF533-4D2F-B50E-C783-C49837E62606">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>15CDD0F4-D84A-2100-E160-87CBAAF79B97</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_2" id="36C1DDC2-E7A6-5BD6-7F87-D5B29975D96C">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>B2B19B98-5EF4-1F4E-FC2C-F5C7BC5A9320</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="BC6AD065-DD31-AA59-5E6E-31389FF5E350">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>75C2532A-F33D-A4EE-0F29-4432BE8B6BDE</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="26F07E20-E68E-54A0-484F-F29702281DC6">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>1981B325-1B50-5ECB-D952-9F14284EDC7C</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="EC5E6360-975E-0CF6-90F4-F41C3A60629A">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>A43C935A-0284-C22F-0B58-FFC32FC804BE</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="5267E5A1-98DB-7B2D-C735-A9477E7FC17E">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<importedID>74DE4F26-FE05-8445-5961-B05D8016AEE5</importedID>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3DE194A-6676-07EF-A2EB-53931ED75308" name="CLIENTE PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CFB6CCC-1EB3-A1CE-8803-BD0A7F2B2823</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

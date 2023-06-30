@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="046EA9D1-390C-0A43-85E7-D19CAD318398" name="ESTOQUE">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 04:04:37 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="qtd_estoque" id="DC77F367-54FA-A907-6E95-2A775D40E2C4">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 04:05:24 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="347E0E6B-0844-A1C3-56D9-B3D4B7F5E18C">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 04:05:41 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_editora" id="F95FB6BB-4B99-2F58-47FD-60072670F043">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-06-30 04:05:54 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<engineerTo>
+<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
