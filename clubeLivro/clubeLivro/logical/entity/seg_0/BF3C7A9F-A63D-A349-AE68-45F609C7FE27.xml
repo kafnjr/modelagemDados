@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF3C7A9F-A63D-A349-AE68-45F609C7FE27" name="PESSOA_FISICA">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 22:54:20 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cliente" id="118688D2-E646-939A-24A8-03332984492A">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:03:29 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="E37FAAB9-B91C-58C9-B229-9514536D8211">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:04:07 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg" id="AFFADFA1-D859-BAFB-66EC-DD918B971704">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:05:03 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="117AF006-A108-3F17-5D82-CAD360B67B29" name="PESSOA_FISICA PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:04:52 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E37FAAB9-B91C-58C9-B229-9514536D8211</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

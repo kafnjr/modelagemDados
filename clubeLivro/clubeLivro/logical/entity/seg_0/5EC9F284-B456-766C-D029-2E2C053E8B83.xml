@@ -3,9 +3,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:56:28 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:56:37 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,9 +25,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:57:08 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -42,9 +33,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:57:23 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,9 +42,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:57:37 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,9 +51,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:57:51 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,9 +60,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:58:09 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -90,9 +69,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:59:02 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -102,9 +78,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:59:11 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -114,10 +87,17 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:59:26 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_editora1" id="098747BA-0F0F-3888-D58F-24E7913E959F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:00:50 UTC</createdTime>
+<generatorID>1BE65385-DE19-124F-F3D2-8CFF60100D91</generatorID>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<referedAttribute>9D27C1F7-B1E0-0BDC-6BBA-CB461172A401</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -128,9 +108,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:57:14 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>84A42A4D-3DFE-7EF9-773F-5066E90080C4</attributeRef>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0ABE33D-89FE-7F9A-2F88-7F90CE306B66" name="EDITORA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61EC1292-A44C-53AB-B67E-4E786B4AA805" name="ITEM_PEDIDO">
 <createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<createdTime>2023-06-30 04:41:40 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,65 +12,61 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_editora" id="9D27C1F7-B1E0-0BDC-6BBA-CB461172A401">
+<Attribute name="cod_cliente" id="8C6A1482-07B3-C313-A0BD-81827CCB8E11">
 <createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<createdTime>2023-06-30 04:42:40 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<importedID>639CA038-E81E-2731-0263-0CC2E3F5B277</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="telefone_1" id="F9C5063D-7468-5E59-BD49-DDB22861A446">
-<createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
-<ownerDesignName>clubeLivro</ownerDesignName>
-<importedID>2AC2FC16-AEC2-E057-D514-49D0AEAD20C0</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefone_2" id="79DDE65C-F3F2-C551-5C99-7C106A85FD94">
+<Attribute name="cod_pedido" id="33B60DAA-B6F7-6906-6557-FB9E1A56DCE0">
 <createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<createdTime>2023-06-30 04:42:47 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<importedID>C8BD35F0-19E4-917F-302B-C4870D88F97C</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="B3570BFF-3092-85D4-AB12-A8D8BAEDC5EB">
+<Attribute name="cod_editora" id="D6804BE4-15D1-DDA0-5B0F-E903BDC8720E">
 <createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<createdTime>2023-06-30 04:43:02 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<importedID>8B667565-B704-7010-44BD-4A4B1DA99449</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome_autor" id="8E9030F7-EBAB-3968-BDC2-E6B292FA9B8C">
+<Attribute name="cod_livro" id="BB15568D-3DF6-82A4-1C52-75697D5C8227">
 <createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:11 UTC</createdTime>
+<createdTime>2023-06-30 04:43:12 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<importedID>FE611433-C813-137F-11B0-B1292D927A59</importedID>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro1" id="6B646869-7D15-FB57-4676-6FF1159A0E3F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 22:58:00 UTC</createdTime>
+<generatorID>65E91A8B-84DF-7B16-ADF1-141A39123F6B</generatorID>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<referedAttribute>84A42A4D-3DFE-7EF9-773F-5066E90080C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pedido1" id="E5417807-0716-DC47-75D8-F8F45AAA5287">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 23:13:10 UTC</createdTime>
+<generatorID>B3DF8933-7A43-AF0B-E53E-94AFD2817914</generatorID>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<referedAttribute>D95A966B-531D-3AFC-EA8E-58FEC2B23E21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C7D98B96-86EA-FBD5-9BE0-AB88C4FEDE7C" name="EDITORA PK">
-<createdBy>cajunior</createdBy>
-<createdTime>2023-06-30 02:44:31 UTC</createdTime>
-<ownerDesignName>clubeLivro</ownerDesignName>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>9D27C1F7-B1E0-0BDC-6BBA-CB461172A401</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

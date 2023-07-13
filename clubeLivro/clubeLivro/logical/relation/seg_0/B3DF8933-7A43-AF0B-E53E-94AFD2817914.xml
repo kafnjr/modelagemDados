@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="B3DF8933-7A43-AF0B-E53E-94AFD2817914">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 22:50:53 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<sourcePk>3DE9737D-356E-F2E4-D526-85808D1E5C92</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>cod_pedido</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E034E6AE-5BCE-E970-BB22-3CD1B51D0ADA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61EC1292-A44C-53AB-B67E-4E786B4AA805</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

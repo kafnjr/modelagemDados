@@ -3,9 +3,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:50:07 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,10 +16,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:51:27 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -31,9 +24,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:52:05 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -42,9 +32,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:52:22 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,10 +41,18 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:52:32 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente1" id="5C063ABE-2F65-AF42-84D9-164D075AB042">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-07-13 22:45:06 UTC</createdTime>
+<generatorID>A99C12E7-6EC7-64B3-CB74-85F6FD1F6294</generatorID>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5CFB6CCC-1EB3-A1CE-8803-BD0A7F2B2823</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -68,9 +63,6 @@
 <createdBy>cajunior</createdBy>
 <createdTime>2023-06-30 03:52:49 UTC</createdTime>
 <ownerDesignName>clubeLivro</ownerDesignName>
-<engineerTo>
-<item key="7915AD3D-71D4-5B71-2380-F7FFD326F1A4" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D95A966B-531D-3AFC-EA8E-58FEC2B23E21</attributeRef>
