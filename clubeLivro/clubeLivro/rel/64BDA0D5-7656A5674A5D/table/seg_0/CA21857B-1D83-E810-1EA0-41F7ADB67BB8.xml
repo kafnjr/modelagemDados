@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA21857B-1D83-E810-1EA0-41F7ADB67BB8" name="CLIENTE">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:11:51 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cliente" id="315C0F5F-EE9F-D62A-7E76-C4B1550D694F">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:13:30 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="FF70B6B6-7353-8E54-4CDE-9EFABAAD6342">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:15:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Somente o primeiro e o último nome.]]></commentInRDBMS>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_1" id="4215521D-70FA-26C1-D6F9-2DD2684D6379">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:16:58 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_2" id="F74253D7-9856-ECFB-283A-123D031D55B6">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:17:20 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5F111EAB-5D5F-6926-055E-B97275746191">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:24:26 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="9D42726F-CEEF-F221-9534-2686005A602A">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:24:46 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="CB49D990-C6C5-792D-A89D-986A1B766AAA">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:24:46 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="029B14C8-88C2-A2B8-7B5C-9A4A90E8BE51">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:24:59 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="193FCF88-67A1-C377-DD50-F79A46640CED">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:24:59 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45BDA68E-A92E-D5FB-3E30-4B72AF6281BB" name="CLIENTE_PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 21:13:30 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315C0F5F-EE9F-D62A-7E76-C4B1550D694F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20B29D56-FBA3-364B-3F01-FBD854558505" name="EDITORA">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:30:57 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_editora" id="73BC31EA-C9C8-F074-6D37-DD07FA8C3C64">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:32:21 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_1" id="09E22DA5-86E3-A9E5-218A-AFE9A11C5420">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:33:02 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_2" id="CFACF2A9-C5EA-181C-CD2E-F487D10500B5">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:33:02 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="010C1DC2-B68D-9A60-E0FC-CECD50601B96">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:34:19 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13B03700-7745-74E2-6FB9-1106FE5AAFA2" name="EDITORA_PK">
+<createdBy>cajunior</createdBy>
+<createdTime>2023-08-15 23:32:21 UTC</createdTime>
+<ownerDesignName>clubeLivro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BC31EA-C9C8-F074-6D37-DD07FA8C3C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
